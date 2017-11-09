@@ -1,6 +1,3 @@
-/**
- * Created by Patrick on 07-11-2017.
- */
 const SDK = {
 
         serverURL: "http://localhost:9595/api",

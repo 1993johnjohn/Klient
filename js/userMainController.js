@@ -53,11 +53,11 @@ $(".sendOrder").on('click', () => {
     //check if bag is empty
     if (itemsInBag.length !== 0) {
     //confirm if user wants to send the order
-    let confirm = window.confirm("Er du sikker på at du vil sende ordren?");
+    let confirm = window.confirm("Are you sure you want to confirm your order?");
     if (confirm) {
         //send order
         SDK.Orders.create(itemsInBag, () => {
-            window.alert("Din ordre er blevet sendt!\nDu skal selv holde dig opdateret om din ordre er klar\nForventet tid er ca 10 minutter,");
+            window.alert("Your order has been accepted! It will be ready in approximately 20 minutes.");
         total = 0;
         $(".baggedItem").remove();
         $('.amount').text(total + " kr.");
@@ -65,7 +65,7 @@ $(".sendOrder").on('click', () => {
     }
     //if bag is empty alert user that no items has been added
 } else  {
-    window.alert("Din Ordre er tom!")
+    window.alert("Your basket is empty!")
 }
 })
 

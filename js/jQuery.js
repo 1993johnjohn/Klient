@@ -1,7 +1,3 @@
-/**
- * Created by Patrick on 07-11-2017.
- */
-
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/

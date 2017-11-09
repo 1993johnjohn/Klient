@@ -1,6 +1,3 @@
-/**
- * Created by Patrick on 09-11-2017.
- */
 $(window).ready(() => {
 
     SDK.Orders.getAll((err, orders) => {

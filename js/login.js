@@ -1,6 +1,3 @@
-/**
- * Created by Patrick on 07-11-2017.
- */
 
 $(document).ready( () => {
 //handler for click on submit in login form
